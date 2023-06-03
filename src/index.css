@@ -1,0 +1,67 @@
+body {
+  background-image: url("./concrete.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.intro {
+  text-align: center;
+  color: #610564;
+  font-size: 24px;
+  padding: 24px;
+    margin-left: 21px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+
+.players {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.player-card {
+  width: 360px;
+  height: 380px;
+  margin: 10px;
+  background-color: rgba(125, 153, 221, 0.801);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.player-image-container {
+  display: center;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 10px;
+}
+
+.player-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  display:grid;
+  margin-left: 60px;
+}
+
+.player-details {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
