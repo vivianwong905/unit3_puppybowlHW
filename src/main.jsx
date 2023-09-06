@@ -19,10 +19,9 @@
 // Call ReactDOM.render to render our App component in the DOM
 // Wrap the App in a Provider to give it access to the Redux store
 // Also, wrap it in React.StrictMode, which is a wrapper component that checks for potential problems in the app during development
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     
   </React.StrictMode>,
-  // Target the 'root' div in your HTML as the place to inject your React app
-  document.getElementById('root')
+
 );
